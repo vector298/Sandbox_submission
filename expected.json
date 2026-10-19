@@ -1,0 +1,95 @@
+{
+  "outcomes": [
+    {
+      "row": 1,
+      "id": "e01",
+      "team": "A",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 2,
+      "id": "e02",
+      "team": "B",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 3,
+      "id": "e03",
+      "team": "A",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 4,
+      "id": "e03",
+      "team": "A",
+      "outcome": "Retry",
+      "reason": "duplicate"
+    },
+    {
+      "row": 5,
+      "id": "e04",
+      "team": "C",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 6,
+      "id": "e05",
+      "team": "B",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 7,
+      "id": "e06",
+      "team": "B",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 8,
+      "id": "e07",
+      "team": "A",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 9,
+      "id": "e05",
+      "team": "B",
+      "outcome": "Rejected",
+      "reason": "conflict"
+    },
+    {
+      "row": 10,
+      "id": "e08",
+      "team": "C",
+      "outcome": "Pending",
+      "reason": null
+    },
+    {
+      "row": 11,
+      "id": "e09",
+      "team": "C",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 12,
+      "id": "e10",
+      "team": "A",
+      "outcome": "Accepted",
+      "reason": null
+    },
+    {
+      "row": 13,
+      "id": "e11",
+      "team": "C",
+      "outcome": "Accepted",
+      "reason": null
+    }
+  ]
+}

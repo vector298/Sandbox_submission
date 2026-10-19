@@ -1,0 +1,108 @@
+{
+  "transactions": [
+    {
+      "row": 1,
+      "id": "e01",
+      "team": "A",
+      "points": 30,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 2,
+      "id": "e02",
+      "team": "B",
+      "points": 20,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 3,
+      "id": "e03",
+      "team": "A",
+      "points": 10,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 4,
+      "id": "e03",
+      "team": "A",
+      "points": 10,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 5,
+      "id": "e04",
+      "team": "C",
+      "points": 50,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 6,
+      "id": "e05",
+      "team": "B",
+      "points": 15,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 7,
+      "id": "e06",
+      "team": "B",
+      "points": 0,
+      "action": "UNDO",
+      "refers_to": "e02"
+    },
+    {
+      "row": 8,
+      "id": "e07",
+      "team": "A",
+      "points": 40,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 9,
+      "id": "e05",
+      "team": "B",
+      "points": 99,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 10,
+      "id": "e08",
+      "team": "C",
+      "points": 0,
+      "action": "UNDO",
+      "refers_to": "e99"
+    },
+    {
+      "row": 11,
+      "id": "e09",
+      "team": "C",
+      "points": -10,
+      "action": "ADD",
+      "refers_to": null
+    },
+    {
+      "row": 12,
+      "id": "e10",
+      "team": "A",
+      "points": 0,
+      "action": "UNDO",
+      "refers_to": "e01"
+    },
+    {
+      "row": 13,
+      "id": "e11",
+      "team": "C",
+      "points": 30,
+      "action": "ADD",
+      "refers_to": null
+    }
+  ]
+}
