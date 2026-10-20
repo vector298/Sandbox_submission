@@ -29,21 +29,7 @@ def total_and_alphabet(events):
     return sorted(scores, key=lambda t: (-scores[t], t))
  
  
-# ---------------------------------------------------------------- 5a: three histories
-#
-# H1  1: B -5     scores after: A 0,  B -5, C 0
-#     2: A -5                   A -5, B -5, C 0      B reached -5 at 1, A reached -5 at 2
-#     3: C +3                   A -5, B -5, C 3
-#     C leads. A and B tie at -5; B got there first. Correct: C, B, A.
-# H2  1: A +50    scores after: A 50, B 0,  C 0
-#     2: B +50                  A 50, B 50, C 0
-#     3: A +10                  A 60, B 50, C 0
-#     4: undo of 3              A 50, B 50, C 0      A left 50 at 3 and RETURNED at 4. B has held 50 since 2.
-#     A and B tie at 50. A's time is now 4, B's is 2. Correct: B, A, C.
-# H3  1: A +5     scores after: A 5,  B 0,  C 0
-#     2: undo of 1              A 0,  B 0,  C 0      A returned to 0 at 2. B and C never moved (time 0).
-#     Everyone is on 0. B and C share time 0, so team id decides: B before C. A is last. Correct: B, C, A.
- 
+
 HISTORIES = {
     "H1 equal negative totals, reached at different times": (
         [ev(1, "e1", "B", -5), ev(2, "e2", "A", -5), ev(3, "e3", "C", 3)],
