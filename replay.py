@@ -28,9 +28,11 @@ def replay(events):
         return {k: v for k, v in event.items() if k != "row"}
  
     def record(e, outcome, reason, explanation):
+        old = outcomes.get(e["row"], {})          
         outcomes[e["row"]] = {"row": e["row"], "id": e["id"], "team": e["team"],
-                              "outcome": outcome, "reason": reason,
-                              "explanation": explanation}
+                               "outcome": outcome, "reason": reason,
+                               "explanation": explanation,
+                               "scores_after": old.get("scores_after")}  
  
     def reject_undo(e, reason, explanation):
         rejected.add(e["id"])
